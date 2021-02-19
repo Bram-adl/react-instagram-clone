@@ -1,0 +1,20 @@
+.UserStories {
+    margin: 2rem 0;
+}
+
+.UserStories-Header {
+    margin-bottom: .8rem;
+}
+
+.UserStories-Row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.UserStories-Row::-webkit-scrollbar {
+    display: none;
+}

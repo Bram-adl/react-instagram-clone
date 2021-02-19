@@ -1,0 +1,17 @@
+.InstagramLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+}
+
+.InstagramLogo-Image {
+    width: 2rem;
+    height: 2rem;
+}
+
+.InstagramLogo-Text {
+    width: 100%;
+    height: 3rem;
+}

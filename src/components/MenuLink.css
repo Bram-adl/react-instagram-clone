@@ -1,0 +1,36 @@
+.MenuLink {
+    margin: 1rem 0;
+}
+
+.MenuLink > a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: var(--white);
+    opacity: .6;
+    transition: .2s ease-out;
+}
+
+.MenuLink-Active > a,
+.MenuLink:hover > a {
+    opacity: 1;
+}
+
+.MenuLink > a > svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 1rem;
+}
+
+.MenuLink > a > svg > path {
+    fill: var(--white);
+}
+
+.MenuLink-Active > a > svg > path {
+    fill: url(#Gradient1);
+}
+
+.MenuLink > a > span {
+    font-size: .9rem;
+}

@@ -1,0 +1,28 @@
+.ActionButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem 1rem;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.ActionButton > svg {
+    margin-right: 1rem;
+}
+
+.ActionButton-CreatePost {
+    background: linear-gradient(45deg, var(--red), var(--orange));
+    color: var(--white);
+    font-weight: 600;
+    font-size: .9rem;
+    cursor: pointer;
+    opacity: .8;
+    transition: .2s ease-out;
+}
+
+.ActionButton-CreatePost:hover {
+    opacity: 1;
+}

@@ -1,0 +1,38 @@
+.UserProfile {
+    color: var(--white);
+    text-align: center;
+    margin: 1.6rem 0;
+    padding: 0 1rem;
+}
+
+.UserProfile-Name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: .8rem 0 .4rem;
+}
+
+.UserProfile-Username {
+    font-size: .8rem;
+    font-weight: normal;
+    opacity: .8;
+}
+
+.UserProfile-InfoList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 1.4rem;
+}
+
+.UserProfile-InfoAmount {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.UserProfile-InfoText {
+    font-weight: 300;
+    font-size: .8rem;
+    opacity: .8;
+}

@@ -1,0 +1,26 @@
+.MainPanel {
+    grid-area: main;
+    background-color: var(--blue);
+    padding: 2rem 4rem;
+    overflow: auto;
+}
+
+@media only screen and (min-width: 996px) {
+    .MainPanel {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+}
+
+.MainPanel-Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainPanel-HeaderLink {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

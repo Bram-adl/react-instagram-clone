@@ -1,0 +1,10 @@
+.SidebarPanel {
+    padding: 1rem 0;
+    grid-area: sidebar;
+    background-color: var(--black);
+    overflow: auto;
+}
+
+.SidebarPanel-Logo {
+    padding: 0 1rem;
+}
